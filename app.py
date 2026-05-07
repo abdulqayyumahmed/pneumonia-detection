@@ -1,5 +1,5 @@
 import streamlit as st
-from tensorflow.keras.models import load_model
+import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 import numpy as np
 from PIL import Image
@@ -18,7 +18,7 @@ st.set_page_config(
 # Load model once and cache it
 @st.cache_resource
 def load_scan_model():
-    return load_model('pneumonia_model.h5')
+    return tf.keras.models.load_model('pneumonia_model.h5')
 
 def get_image_base64(img):
     buffered = BytesIO()
