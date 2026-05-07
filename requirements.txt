@@ -1,4 +1,6 @@
 streamlit
-tensorflow-cpu
+tensorflow
 numpy
 Pillow
+h5py
+scipy
