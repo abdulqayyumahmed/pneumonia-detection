@@ -288,5 +288,6 @@ with col2:
 st.write('</div>', unsafe_allow_html=True) # End main-panel
 st.write('</div>', unsafe_allow_html=True) # End dashboard-wrapper
 
+
 # Footer
 st.write("<p style='text-align: center; color: #334155; font-size: 0.65rem; margin-top: 0.5rem;'>NEURO-SCAN AI | © 2026</p>", unsafe_allow_html=True)
